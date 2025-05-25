@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   background: #000;
@@ -24,11 +23,13 @@ header {
   gap: 12px;
   overflow-x: auto;
   padding-bottom: 10px;
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 .story-strip::-webkit-scrollbar {
-  display: none; /* Chrome */
+  display: none;
+  /* Chrome */
 }
 
 .mini {
@@ -83,26 +84,26 @@ header {
   right: 0;
 }
 
-.fade{
-    transition: opacity 0.4 ease-in-out;
-    opacity: 1;
+.fade {
+  transition: opacity 0.4 ease-in-out;
+  opacity: 1;
 }
 
 .progress-bar {
-position: absolute;
-top: 0;
-left: 0;
-height: 4px;
-width: 100%;
-background-color: rgba(255, 255, 255, 0.2);
-z-index: 20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 20;
 }
 
 .progress-fill {
-height: 100%;
-background-color: #fff;
-width: 0%;
-transition: width 50ms linear;
+  height: 100%;
+  background-color: #fff;
+  width: 0%;
+  transition: width 50ms linear;
 }
 
 
