@@ -1,3 +1,52 @@
+# Photogram Stories Viewer
+
+A mobile-first React application that mimics the **Instagram Stories** feature. This project was built for a frontend assessment and demonstrates key UI skills such as:
+
+- Responsive design
+- Horizontal scrolling
+- Manual and auto-navigation
+- Story progress indicator
+
+[**Live Demo**](https://photogram-nk38.vercel.app)
+
+---
+
+## Features
+
+- Mobile-only layout (not optimized for desktop)
+- Horizontally scrollable story thumbnails
+- Click a story to view it fullscreen
+- Automatically advances to the next story after 5 seconds
+- Manual navigation:
+  - Tap on the left to go to the previous story
+  - Tap on the right to go to the next story
+- Progress bar shows time remaining for current story
+- Stories are loaded from an external JSON file
+- Clean and Instagram-inspired styling
+
+---
+
+## Tech Stack
+
+- **React**
+- **HTML/CSS (no external libraries)**
+- Hosted on **Vercel**
+
+---
+
+## Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/your-username/photogram-stories.git
+cd photogram-stories
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
